@@ -1,0 +1,51 @@
+.titleDetails{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconRetour{
+    width: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #f9c308;
+    padding: 10px;
+}
+
+.buttonRetour{
+    display: flex;
+    align-items: center;
+    background-color: #fbdb6b;
+}
+
+.grandPhotoDetils{
+    width: 500px;
+}
+
+.photoDetail{
+    width: 250px;
+}
+
+.photoDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.photos{
+    display: flex;
+    width: auto;
+}
+
+.petitPhotos{
+    width: 120px;
+}
+
+.photosGauche{
+    display: flex;
+    flex-direction: column;
+}
+
+.petitPhotoDetails{  
+    display: flex;
+    flex-wrap: wrap;
+    
+}

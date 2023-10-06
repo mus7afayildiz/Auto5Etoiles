@@ -1,0 +1,44 @@
+/* Header */
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#ffcd3c ;
+    flex-wrap: wrap;
+}
+
+.navHeader{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+figure{
+    width:25px;
+}
+
+.logoPetit{
+    width:150px;
+    border-radius: 5px;
+}
+
+.navHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerCompte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.accountIcon{
+    width: 50px;
+}
+
+.headerLien{
+    margin: 20px;
+}

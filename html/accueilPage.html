@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link rel="stylesheet" href="css\styleAccueilPage.css">
+    <link rel="stylesheet" href="../css/styleHeader.css">
+    <link rel="stylesheet" href="../css/styleAccueil.css">
+    <link rel="stylesheet" href="../css/styleFooter.css">
 </head>
+
 <body>
     <header>
         <figure>
-            <img src="" alt="logo">
+            <a href="accueilPage.html"><img class="logoPetit" src="../media/logo/logo.png" alt="logo"></a>
         </figure>
-        <nav>
-            <ul>
-                <li>Chercher</li>
-                <li>Vendre</li>
-                <li>Contact</li>
-            </ul>
+        <nav class="navHeader">
+            <div class="headerLien"><a href="accueilPage.html">Chercher</a></div>
+            <div class="headerLien"><a href="detailsPage.html">Vendre</a></div>
+            <div class="headerLien"><a href="contactPage.html">Contact</a></div>
         </nav>
-        <div>
-            <img src="" alt="IconCompte">
+        <div class="containerCompte">
+            <img class="accountIcon" src="../media/logo/account.png" alt="IconCompte">
             <div>
                 <p>Mon Compte</p>
                 <button>Se Connecter</button>
@@ -30,74 +32,122 @@
 
     <main>
         <section>
+            <h2 class="title">Auto 5 Etoiles</h2>
             <div class="containerLogo">
-                <img src="" alt="LogoGrande">
+                <a href="accueilPage.html"><img class="logoGrand" src="../media/logo/logoName.png" alt="LogoGrande"></a>
             </div>
             <div>
-                <div class="photoGrande"></div>
+                <div class="photoGrande">
+                    <img src="../media/detailPhoto.png" alt="photoMainPage">
+                    <p>MERCEDES-BENZ S 63 AMG L 4Matic+ 9G-Tronic</p>
+                </div>
             </div>
             <div>
                 <p></p>
             </div>
 
             <div class="containerChercher">
-              <form action="">
-                <select name="Marque" id="marque">
-                    <option value="Mercedes"></option>
-                    <option value="Kia"></option>
-                    <option value="BMW"></option>
-                </select>
-                <select name="Prix jusqu'a" id="prix">
-                    <option value="0-499"></option>
-                    <option value="500-999"></option>
-                    <option value="1000-4999"></option>
-                    <option value="5000-10000"></option>
-                </select>
-                <select name="Année de" id="année">
-                    <option value="0-1970"></option>
-                    <option value="1970-2000"></option>
-                    <option value="2000-2010"></option>
-                    <option value="2010-2023"></option>
-                </select>
-              </form>
-              <select name="Type de carroserie" id="carroserie">
-                <option value="kombi"></option>
-                <option value="Pick-up"></option>
-                <option value="Coupé"></option>
-                <option value="Cabriolet"></option>
-                <option value="Limousine"></option>
-                <option value="SUV"></option>
-                <option value="Bus"></option>
-            </select>
-            <select name="Carburant" id="carburant">
-                <option value="Electrique"></option>
-                <option value="Essence"></option>
-                <option value="Diesel"></option>
-                <option value="Hybride"></option>
-            </select>
+                <div class="chercherForm">
+                    <form>
+                        <label for="marque">Marque</label>
+                        <select name="marque" id="marque">
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Kia">Kia</option>
+                            <option value="BMW">BMW</option>
+                        </select>
+
+                        <label for="prix">Prix jusqu'a</label>
+                        <select name="prix" id="prix">
+                            <option value="0-499">0-499</option>
+                            <option value="500-999">500-999</option>
+                            <option value="1000-4999">1000-4999</option>
+                            <option value="5000-10000">5000-10000</option>
+                        </select>
+
+                        <label for="année">Année de</label>
+                        <select name="année" id="année">
+                            <option value="0-1970">0-1970</option>
+                            <option value="1970-2000">1970-2000</option>
+                            <option value="2000-2010">2000-2010</option>
+                            <option value="2010-2023">2010-2023</option>
+                        </select>
+
+                        <label for="carroserie">Type de carroserie</label>
+                        <select name="carroserie" id="carroserie">
+                            <option value="kombi">Kombi</option>
+                            <option value="Pick-up">Pick-up</option>
+                            <option value="Coupé">Coupé</option>
+                            <option value="Cabriolet">Cabriolet</option>
+                            <option value="Limousine">Limousine</option>
+                            <option value="SUV">SUV</option>
+                            <option value="Bus">Bus</option>
+                        </select>
+
+                        <label for="carburant">Carburant</label>
+                        <select name="carburant" id="carburant">
+                            <option value="Electrique">Electrique</option>
+                            <option value="Essence">Essence</option>
+                            <option value="Diesel">Diesel</option>
+                            <option value="Hybride">Hybride</option>
+                        </select>
+                    </form>
+                </div>
+                <button class="buttonChercher">Chercher</button>
             </div>
             <div>
-                <div>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
-                    <img src="" alt="logo">
-                    <p>Marque</p>
+                <div class="containerLogo">
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Audi.webp" alt="logoAudi">
+                        <p>Audi</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/BMW.webp" alt="logoBMW">
+                        <p>BMW</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Ford.webp" alt="logoFord">
+                        <p>FORD</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Hyundai.webp" alt="logoHyundai">
+                        <p>HYUNDAI</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Mercedes.png" alt="logoMercedes">
+                        <p>MERCEDES-BENZ</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Peugeot.webp" alt="logoPeugeot">
+                        <p>PEUGEOT</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Porsche.webp" alt="logoPorsche">
+                        <p>PORSCHE</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Renault.webp" alt="logoRenault">
+                        <p>RENAULT</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Skoda.webp" alt="logoSkoda">
+                        <p>SKODA</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/tesla.webp" alt="logoTesla">
+                        <p>TESLA</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Toyota.webp" alt="logoToyota">
+                        <p>TOYOTA</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/VW.webp" alt="logoVW">
+                        <p>VW</p>
+                    </div>
+                    <div class="logoMain">
+                        <img class="logoBox" src="../media/logosMarques/Volvo.webp" alt="logoVolvo">
+                        <p>VOLVO</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -106,12 +156,22 @@
 
     <footer>
         <div class="réseauxSociaux">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="containerLogoResauxSociaux">
+                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/facebook.png" alt="iconFacebook">
+                <p>Facebook</p>
+            </div>
+            <div class="containerLogoResauxSociaux">
+                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/instagram.png" alt="iconInstagram">
+                <p>Instagram</p>
+            </div>
+            <div class="containerLogoResauxSociaux">
+                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/twitter.webp" alt="iconTwitter">
+                <p>Twitter</p>
+            </div>
+            <div class="containerLogoResauxSociaux">
+                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/youtube.webp" alt="iconYoutube">
+                <p>Youtube</p>
+            </div>
         </div>
         <div class="copyright">Copyright 2023 Mustafa Yildiz</div>
     </footer>
@@ -119,6 +179,7 @@
 
 
 
-    
+
 </body>
+
 </html>

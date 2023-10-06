@@ -1,0 +1,25 @@
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffcd3c;
+}
+
+.containerLogoResauxSociaux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 30px;
+}
+
+.iconResauxSociaux{
+    width: 50px;
+}
+
+.réseauxSociaux{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
