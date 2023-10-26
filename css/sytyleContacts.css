@@ -1,0 +1,109 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionContainer{
+    width: 85%;
+}
+
+.sectionMain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*navbar*/
+.sectionNav {
+    background-color: rgb(238, 243, 146);
+    width: 15%;
+    border-style: solid;
+    border-color: #f9c308;
+    padding: 2%;
+}
+
+.headerLien{
+    margin: 2%;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-color: #f9c308;
+    padding: 5%;
+    margin: 2%;
+    width: 80%;
+}
+
+.titrePersonnel {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.addresse {
+    display: flex;
+}
+
+.sectionForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.contacts,
+.personnalise {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Message,
+.e-mail,
+.Téléphone,
+.Ville,
+.NPA,
+.Rue,
+.Nom,
+.Prenom,
+.Titre {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.utilisateur {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+}
+
+.inputField:invalid {
+    background-color: rgb(238, 243, 146);
+}
+
+.inputField:valid {
+    background-color: rgba(47, 124, 189, 0.1);
+}

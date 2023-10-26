@@ -1,44 +1,45 @@
 /* Header */
 header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:#ffcd3c ;
+    background-color:blue ;
     flex-wrap: wrap;
+    width: 100%;
+    color: white;
 }
 
-.navHeader{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-}
-
-figure{
-    width:25px;
+.figureLogo{
+    width:20%;
 }
 
 .logoPetit{
-    width:150px;
-    border-radius: 5px;
-}
-
-.navHeader{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    width:100%;
+    border-radius: 5%;
 }
 
 .containerCompte{
     display: flex;
+    justify-content: end;
+    width: 20%;
+}
+
+.sectionCompte{
+    display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    width: 60%;
+    margin: 5%;
+}
+
+.compte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .accountIcon{
-    width: 50px;
+    width: 40%;
 }
 
-.headerLien{
-    margin: 20px;
-}
+

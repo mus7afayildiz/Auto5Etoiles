@@ -16,17 +16,11 @@
     align-items: center;
     background-color: #fbdb6b;
     border-radius: 10%;
-    width: 25%;
+    width: 20%;
 }
 
 .grandPhotoDetils{
     width: 100%;
-    height: 100%;
-}
-
-.photoDetail{
-    width: 100%;
-    height: 100%;
 }
 
 .photoDetails{
@@ -34,32 +28,14 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-   
 }
 
 .photos{
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 60%;
     border-style: solid;
     border-color: #f9c308;
-}
-
-.petitPhotos{
-    width: 100%;  
-    height: 100%; 
-}
-
-.photosDroit{
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-}
-
-.petitPhotoDetails{  
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 .petitIcon{
@@ -106,6 +82,9 @@
 
 .sectionContainer{
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*navbar*/

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,47 +9,132 @@
     <link rel="stylesheet" href="../css/sytyleContacts.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
 </head>
+
 <body>
-    <header>
-        <figure>
-            <a href="accueilPage.html"><img class="logoPetit" src="../media/logo/logo.png" alt="logo"></a>
-        </figure>
-        <nav class="navHeader">
-            <div class="headerLien"><a href="accueilPage.html">Chercher</a></div>
-            <div class="headerLien"><a href="detailsPage.html">Vendre</a></div>
-            <div class="headerLien"><a href="contactPage.html">Contact</a></div>
-        </nav>
-        <div class="containerCompte">
-            <img class="accountIcon" src="../media/logo/account.png" alt="IconCompte">
+    <main>
+        <header>
+            <div class="figureLogo">
+                <figure>
+                    <a href="accueilPage.html"><img class="logoPetit" src="../media/logo/logo.png" alt="logo"></a>
+                </figure>
+            </div>
             <div>
-                <p>Mon Compte</p>
-                <button>Se Connecter</button>
+                <h1>Auto5Etoiles</h1>
             </div>
-        </div>
+            <div class="containerCompte">
+                <div class="sectionCompte">
+                    <img class="accountIcon" src="../media/logo/account.png" alt="IconCompte">
+                    <div class="compte">
+                        <p>Mon Compte</p>
+                        <button>Se Connecter</button>
+                    </div>
+                </div>
+            </div>
+        </header>
 
-    </header>
+        <section class="sectionMain">
+            <section class="sectionForm">
+                <div><h2>Contacts</h2></div>
+                <div class="form">
+                    <form action="/action_page.php" method="get">
+                        <div class="personnalise">
+                            <div class="utilisateur">
+                                <div><label for="uname">Nom d’utilisateur (facultatif)</label></div>
+                                <input type="text" id="uname" name="uname" minlength="3" class="inputField" required>
+                            </div>
+                            <div class="titrePersonnel">
+                                <div class="Titre">
+                                    <div><label for="titre">Titre :</label></div>
+                                    <div>
+                                        <input type="radio" id="monsieur" name="gendre" value="monsieur">
+                                        <label for="monsieur">Monsieur</label>
+                                        <input type="radio" id="madame" name="gendre" value="madame" checked="checked">
+                                        <label for="madame">Madame</label>
+                                        <input type="radio" id="entreprise" name="gendre" value="entreprise">
+                                        <label for="entreprise">Entreprise</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Prenom">
+                                <div><label for="fname">Prénom :</label></div>
+                                <div><input type="text" id="fname" name="fname" minlength="3" class="inputField"
+                                        required></div>
+                            </div>
+                            <div class="Nom">
+                                <div><label for="lname">Nom :</label></div>
+                                <div><input type="text" id="lname" name="lname" minlength="3" class="inputField"
+                                        required></div>
+                            </div>
+                        </div>
+                        <div class="contacts">
+                            <div class="Rue">
+                                <div><label for="Rue">Rue :</label></div>
+                                <div><input type="text" id="Rue" name="Rue" minlength="3" class="inputField" required>
+                                </div>
+                            </div>
+                            <div class="NPA">
+                                <div><label for="NPA">NPA :</label></div>
+                                <div><input type="text" id="NPA" name="NPA" pattern="[0-9]{4}"
+                                        class="inputField" required></div>
+                            </div>
+                            <div class="Ville">
+                                <div><label for="Ville">Ville :</label></div>
+                                <div><input type="text" id="Ville" name="Ville" minlength="3" class="inputField"
+                                        required></div>
+                            </div>
+                            <div class="Téléphone">
+                                <div><label for="Téléphone">Téléphone :</label></div>
+                                <div><input type="tel" id="Téléphone" name="Téléphone" minlength="10"
+                                        pattern="[0-9]{10}" class="inputField" required></div>
+                            </div>
+                            <div class="e-mail">
+                                <div><label for="E-Mail">E-Mail :</label></div>
+                                <div><input type="email" id="E-Mail" name="E-Mail" class="inputField" required>
+                                </div>
+                            </div>
+                            <div class="Message">
+                                <div><label for="Message">Message:</label></div>
+                                <div><input type="text" id="Message" name="Message" minlength="3" class="inputField"
+                                        required></div>
+                            </div>
+                        </div>
+                        <input class="buttonSubmit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </section>
+            <section class="sectionNav">
+                <div class="nav">
+                    <nav class="navigation">
+                        <div class="headerLien"><a href="accueilPage.html">Chercher</a></div>
+                        <div class="headerLien"><a href="detailsPage.html">Vendre</a></div>
+                        <div class="headerLien"><a href="contactPage.html">Contact</a></div>
+                    </nav>
+                </div>
+            </section>
+        </section>
 
-    <footer>
-        <div class="réseauxSociaux">
-            <div class="containerLogoResauxSociaux">
-                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/facebook.png" alt="iconFacebook">
-                <p>Facebook</p>
+        <footer>
+            <div class="réseauxSociaux">
+                <div class="containerLogoResauxSociaux">
+                    <img class="iconResauxSociaux" src="../media/iconResauxSociaux/facebook.png" alt="iconFacebook">
+                    <p>Facebook</p>
+                </div>
+                <div class="containerLogoResauxSociaux">
+                    <img class="iconResauxSociaux" src="../media/iconResauxSociaux/instagram.png" alt="iconInstagram">
+                    <p>Instagram</p>
+                </div>
+                <div class="containerLogoResauxSociaux">
+                    <img class="iconResauxSociaux" src="../media/iconResauxSociaux/twitter.webp" alt="iconTwitter">
+                    <p>Twitter</p>
+                </div>
+                <div class="containerLogoResauxSociaux">
+                    <img class="iconResauxSociaux" src="../media/iconResauxSociaux/youtube.webp" alt="iconYoutube">
+                    <p>Youtube</p>
+                </div>
             </div>
-            <div class="containerLogoResauxSociaux">
-                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/instagram.png" alt="iconInstagram">
-                <p>Instagram</p>
-            </div>
-            <div class="containerLogoResauxSociaux">
-                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/twitter.webp" alt="iconTwitter">
-                <p>Twitter</p>
-            </div>
-            <div class="containerLogoResauxSociaux">
-                <img class="iconResauxSociaux" src="../media/iconResauxSociaux/youtube.webp" alt="iconYoutube">
-                <p>Youtube</p>
-            </div>
-        </div>
-        <div class="copyright">Copyright 2023 Mustafa Yildiz</div>
-    </footer>
-    
+            <div class="copyright">Copyright 2023 Mustafa Yildiz</div>
+        </footer>
+    </main>
 </body>
+
 </html>
