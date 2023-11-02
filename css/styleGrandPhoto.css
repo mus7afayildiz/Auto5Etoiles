@@ -1,77 +1,84 @@
-.titleDetails{
+/**
+* ETML
+* Auteur      : Mustafa Yildiz
+* Date        : 29.10.2023
+* Description : La Page pour style de grandPhotoPages
+**/
+
+.titleDetails {
     display: flex;
     justify-content: space-between;
 }
 
-.iconRetour{
+.iconRetour {
     width: 30%;
     margin: 1%;
     border-radius: 10px;
-    background-color: #f9c308;
     padding: 1%;
 }
 
-.buttonRetour{
+.buttonRetour {
     display: flex;
     align-items: center;
-    background-color: #fbdb6b;
     border-radius: 10%;
-    width: 20%;
+    width: 25%;
 }
 
-.grandPhotoDetils{
+.grandPhotoDetils {
     width: 100%;
 }
 
-.photoDetails{
+.photoDetails {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
 
-.photos{
+.photos {
     display: flex;
     justify-content: center;
     width: 60%;
-    border-style: solid;
-    border-color: #f9c308;
 }
 
-.petitIcon{
+.petitIcon {
     width: 7%;
     margin-right: 2%;
 }
 
-.informationSection{
+.informationSection {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 80%;
     text-decoration: none;
 }
 
-.info{
+ul {
+    list-style-type: none;
+}
+
+.info {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.infoGauche{
+.infoGauche {
     width: 50%;
 }
 
-.infoDroit{
+.infoDroit {
     width: 50%;
 }
 
-.infoText{
+.infoText {
     width: 50%;
 }
 
-.titleDetail{
+.titleDetail {
     display: flex;
-    justify-content: space-between; 
-    width: 60%;   
+    justify-content: space-between;
+    width: 60%;
 }
 
 .sectionMain {
@@ -80,40 +87,37 @@
     flex-direction: row;
 }
 
-.sectionContainer{
+.sectionContainer {
     width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-/*navbar*/
-.sectionNav {
-    background-color: rgb(238, 243, 146);
-    width: 15%;
+/*typology*/
+h3 {
+    font-size: 0.8em;
+}
+
+h4 {
+    font-size: 0.8em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+.info {
+    font-size: 0.8em;
+}
+
+/*colors*/
+.iconRetour {
+    background-color: #f9c308;
+}
+
+.buttonRetour {
+    background-color: #fbdb6b;
+}
+
+.photos {
     border-style: solid;
     border-color: #f9c308;
-    padding: 2%;
-}
-
-.headerLien{
-    margin: 2%;
-}
-
-a:visited {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: blue;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    color: blue;
-    background-color: transparent;
-    text-decoration: underline;
 }

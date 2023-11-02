@@ -2,23 +2,30 @@
 <html lang="en">
 
 <head>
+    <!--
+        Auteur      : Mustafa Yildiz
+        Date        : 29.09.2023
+        Description : Page Accueil et Galerie de Photos
+    -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="../css/styleHeader.css">
     <link rel="stylesheet" href="../css/styleAccueil.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
+    <link rel="stylesheet" href="../css/styleNavbar.css">
 </head>
 
 <body>
     <main>
         <header>
             <div class="figureLogo">
-                <figure>
+                <div class="boxLogo">
                     <a href="accueilPage.html"><img class="logoPetit" src="../media/logo/logo.png" alt="logo"></a>
-                </figure>
+                </div>
             </div>
-            <div>
+            <div class="sectionTitle">
                 <h1>Auto5Etoiles</h1>
             </div>
 
@@ -27,14 +34,14 @@
                     <img class="accountIcon" src="../media/logo/account.png" alt="IconCompte">
                     <div class="compte">
                         <p>Mon Compte</p>
-                        <button>Se Connecter</button>
+                        <button class="seConnect">Se Connecter</button>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="sectionMain">
-            <section class="sectionContainer">
+        <div class="sectionMain">
+            <div class="sectionContainer">
                 <div class="titleSection">
                     <h2 class="title">Auto 5 Etoiles</h2>
                 </div>
@@ -42,10 +49,10 @@
                     <a href="accueilPage.html"><img class="logoGrand" src="../media/logo/logoName.png"
                             alt="LogoGrande"></a>
                 </div>
-                <section class="sectionGalerie">
+                <div class="sectionGalerie">
                     <div class="titleGalerie">
-                        <h3>Galerie</h3>
-                        <h4>MERCEDES-BENZ S63 AMG L 4Matic+ 9G-Tronic</h4>
+                        <h2>GALERIE</h2>
+                        <h3>MERCEDES-BENZ S63 AMG L 4Matic+ 9G-Tronic</h3>
                     </div>
                     <div class="w50">
                         <div class="box">
@@ -67,7 +74,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
 
                 <div class="containerChercher">
                     <div class="chercherForm">
@@ -184,17 +191,19 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="sectionNav">
+            </div>
+            <div class="sectionNav">
                 <div class="nav">
                     <nav class="navigation">
-                        <div class="headerLien"><a href="accueilPage.html">Chercher</a></div>
-                        <div class="headerLien"><a href="detailsPage.html">Vendre</a></div>
-                        <div class="headerLien"><a href="contactPage.html">Contact</a></div>
+                        <ul>
+                            <li class="headerLien"><a href="accueilPage.html">Accueil</a></li>
+                            <li class="headerLien"><a href="detailsPage.html">Détails</a></li>
+                            <li class="headerLien"><a href="contactPage.html">Contact</a></li>
+                        </ul>
                     </nav>
                 </div>
-            </section>
-        </section>
+            </div>
+        </div>
 
         <footer>
             <div class="réseauxSociaux">

@@ -1,30 +1,49 @@
+/**
+* ETML
+* Auteur      : Mustafa Yildiz
+* Date        : 29.09.2023
+* Description : La Page pour style de Header
+**/
+
+/*Layout*/
+
 /* Header */
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:blue ;
     flex-wrap: wrap;
     width: 100%;
-    color: white;
 }
 
-.figureLogo{
-    width:20%;
-}
-
-.logoPetit{
-    width:100%;
-    border-radius: 5%;
-}
-
-.containerCompte{
+.figureLogo {
     display: flex;
-    justify-content: end;
+    justify-content: center;
     width: 20%;
 }
 
-.sectionCompte{
+.boxLogo {
+    width: 60%;
+}
+
+.logoPetit {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.sectionTitle {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.containerCompte {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.sectionCompte {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,14 +51,42 @@ header{
     margin: 5%;
 }
 
-.compte{
+.compte {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.accountIcon{
+.accountIcon {
     width: 40%;
 }
 
+.seConnect {
+    width: 100%;
+}
 
+
+/*typology*/
+.logoMain {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 1em;
+}
+
+.seConnect {
+    font-size: 0.75em;
+    border-radius: 5px;
+}
+
+/*colors*/
+header {
+    background-color: blue;
+    color: white;
+}

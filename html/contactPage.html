@@ -2,39 +2,49 @@
 <html lang="en">
 
 <head>
+    <!--
+        Auteur      : Mustafa Yildiz
+        Date        : 13.10.2023
+        Description : Page Contact est include un Form
+    -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="../css/styleHeader.css">
     <link rel="stylesheet" href="../css/sytyleContacts.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
+    <link rel="stylesheet" href="../css/styleNavbar.css">
 </head>
 
 <body>
     <main>
         <header>
             <div class="figureLogo">
-                <figure>
+                <div class="boxLogo">
                     <a href="accueilPage.html"><img class="logoPetit" src="../media/logo/logo.png" alt="logo"></a>
-                </figure>
+                </div>
             </div>
-            <div>
+            <div class="sectionTitle">
                 <h1>Auto5Etoiles</h1>
             </div>
+
             <div class="containerCompte">
                 <div class="sectionCompte">
                     <img class="accountIcon" src="../media/logo/account.png" alt="IconCompte">
                     <div class="compte">
                         <p>Mon Compte</p>
-                        <button>Se Connecter</button>
+                        <button class="seConnect">Se Connecter</button>
                     </div>
                 </div>
             </div>
         </header>
 
-        <section class="sectionMain">
-            <section class="sectionForm">
-                <div><h2>Contacts</h2></div>
+        <div class="sectionMain">
+            <div class="sectionForm">
+                <div>
+                    <h2>Contacts</h2>
+                </div>
                 <div class="form">
                     <form action="/action_page.php" method="get">
                         <div class="personnalise">
@@ -44,8 +54,8 @@
                             </div>
                             <div class="titrePersonnel">
                                 <div class="Titre">
-                                    <div><label for="titre">Titre :</label></div>
                                     <div>
+                                        <label>Titre :</label>
                                         <input type="radio" id="monsieur" name="gendre" value="monsieur">
                                         <label for="monsieur">Monsieur</label>
                                         <input type="radio" id="madame" name="gendre" value="madame" checked="checked">
@@ -74,8 +84,8 @@
                             </div>
                             <div class="NPA">
                                 <div><label for="NPA">NPA :</label></div>
-                                <div><input type="text" id="NPA" name="NPA" pattern="[0-9]{4}"
-                                        class="inputField" required></div>
+                                <div><input type="text" id="NPA" name="NPA" pattern="[0-9]{4}" class="inputField"
+                                        required></div>
                             </div>
                             <div class="Ville">
                                 <div><label for="Ville">Ville :</label></div>
@@ -101,17 +111,19 @@
                         <input class="buttonSubmit" type="submit" value="Submit">
                     </form>
                 </div>
-            </section>
-            <section class="sectionNav">
+            </div>
+            <div class="sectionNav">
                 <div class="nav">
                     <nav class="navigation">
-                        <div class="headerLien"><a href="accueilPage.html">Chercher</a></div>
-                        <div class="headerLien"><a href="detailsPage.html">Vendre</a></div>
-                        <div class="headerLien"><a href="contactPage.html">Contact</a></div>
+                        <ul>
+                            <li class="headerLien"><a href="accueilPage.html">Accueil</a></li>
+                            <li class="headerLien"><a href="detailsPage.html">Détails</a></li>
+                            <li class="headerLien"><a href="contactPage.html">Contact</a></li>
+                        </ul>
                     </nav>
                 </div>
-            </section>
-        </section>
+            </div>
+        </div>
 
         <footer>
             <div class="réseauxSociaux">

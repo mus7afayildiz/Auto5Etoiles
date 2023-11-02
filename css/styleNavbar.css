@@ -1,0 +1,60 @@
+/**
+* ETML
+* Auteur      : Mustafa Yildiz
+* Date        : 29.09.2023
+* Description : La Page pour style de Navbar
+**/
+
+/*navbar*/
+.sectionNav {
+    width: 15%;
+    padding: 2%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.headerLien {
+    margin: 2%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+/*typology*/
+nav ul {
+    font-size: 1rem;
+}
+
+/*colors*/
+.sectionNav {
+    background-color: rgb(238, 243, 146);
+    border: #f9c308 solid;
+}
+
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}

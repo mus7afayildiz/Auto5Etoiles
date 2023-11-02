@@ -2,22 +2,29 @@
 <html lang="en">
 
 <head>
+    <!--
+        Auteur      : Mustafa Yildiz
+        Date        : 29.10.2023
+        Description : Grand Photo Page 5
+    -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GrandPhoto5</title>
     <link rel="stylesheet" href="../css/styleHeader.css">
     <link rel="stylesheet" href="../css/styleGrandPhoto.css">
     <link rel="stylesheet" href="../css/styleFooter.css">
+    <link rel="stylesheet" href="../css/styleNavbar.css">
 </head>
 
 <body>
     <header>
         <div class="figureLogo">
-            <figure>
+            <div class="boxLogo">
                 <a href="accueilPage.html"><img class="logoPetit" src="../media/logo/logo.png" alt="logo"></a>
-            </figure>
+            </div>
         </div>
-        <div>
+        <div class="sectionTitle">
             <h1>Auto5Etoiles</h1>
         </div>
 
@@ -26,19 +33,19 @@
                 <img class="accountIcon" src="../media/logo/account.png" alt="IconCompte">
                 <div class="compte">
                     <p>Mon Compte</p>
-                    <button>Se Connecter</button>
+                    <button class="seConnect">Se Connecter</button>
                 </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="sectionMain">
-            <section class="sectionContainer">
+        <div class="sectionMain">
+            <div class="sectionContainer">
                 <div class="titleDetails">
                     <a href="accueilPage.html">
-                        <button class="buttonRetour">
+                        <div class="buttonRetour">
                             <img class="iconRetour" src="../media/icons/retour.png" alt="iconRetour">Retour
-                        </button>
+                        </div>
                     </a>
                     <div class="titleDetailPage">
                         <h3>MERCEDES-BENZ>S 63 AMG > MERCEDES-BENZ S63 AMG L 4Matic+ 9G-Tronic</h3>
@@ -62,54 +69,61 @@
                 <div class="info">
                     <div class="informationSection">
                         <div class="infoGauche">
-                            <dl>
-                                <dd><img class="petitIcon" src="../media/icons/calendar.png" alt="calender">05.2017</li>
-                                <dd><img class="petitIcon" src="../media/icons/road.png" alt="road">59'850 km</li>
-                                <dd><img class="petitIcon" src="../media/icons/transmission.png"
+                            <ul>
+                                <li><img class="petitIcon" src="../media/icons/calendar.png" alt="calender">05.2017</li>
+                                <li><img class="petitIcon" src="../media/icons/road.png" alt="road">59'850 km</li>
+                                <li><img class="petitIcon" src="../media/icons/transmission.png"
                                         alt="transmission">Automatique</li>
-                                <dd><img class="petitIcon" src="../media/icons/typeDrive.png" alt="typDrive">4 roues
+                                <li><img class="petitIcon" src="../media/icons/typeDrive.png" alt="typDrive">4 roues
                                     motrices</li>
-                            </dl>
+                            </ul>
                         </div>
                         <div class="infoDroit">
-                            <dl>
-                                <dt><img class="petitIcon" src="../media/icons/transmission.png"
+                            <ul>
+                                <li><img class="petitIcon" src="../media/icons/transmission.png"
                                         alt="transmission">Limousine</li>
-                                <dt><img class="petitIcon" src="../media/icons/gas-station.png" alt="gas">Essence</li>
-                                <dt><img class="petitIcon" src="../media/icons/speed.png" alt="speed">612 PS (450 kW)
-                                    </li>
-                                <dt><img class="petitIcon" src="../media/icons/petrol.png" alt="petrol">8.9 l/100 km
-                                    </li>
-                            </dl>
+                                <li><img class="petitIcon" src="../media/icons/gas-station.png" alt="gas">Essence</li>
+                                <li><img class="petitIcon" src="../media/icons/speed.png" alt="speed">612 PS (450 kW)
+                                </li>
+                                <li><img class="petitIcon" src="../media/icons/petrol.png" alt="petrol">8.9 l/100 km
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="infoText">
                         <article>
-                            AMG Driver's Package
-                            AMG Pack Exclusif
-                            Décor: Pack exclusif boiseries décoratives
-                            Décor:Ciel de toit designo en DINAMICA noir
-                            Décor:Veines de contraste
-                            Intérieur designo avec sellerie en cuir nappa designo avec design en losanges
-                            Sièges de sport AMG
-                            Sièges: Accoudoir central AR
-                            Sièges:Accoudoir central AV
-                            Siéges en cuir Nappa noir
-                            Tapis en velours AMG
+                            <h5>Équipement</h5>
+                            <ul>
+                                <li>AMG Driver's Package</li>
+                                <li>AMG Pack Exclusif</li>
+                                <li>Airbag latéraux y c.airbag latéraux à l'arrière</li>
+                                <li>Airbag: Airbags latéraux AR</li>
+                                <li>Appuis-têtes confort à l'avant</li>
+                                <li>Assistant vision de nuit PLUS</li>
+                                <li>Media: Head-Up Display</li>
+                                <li>Commande à distance pour COMAND Online</li>
+                                <li>Couverture moteur AMG carbone</li>
+                                <li>Décor:Ciel de toit designo en DINAMICA noir</li>
+                                <li>Gestion confort ENERGIZING</li>
+                                <li>Gilets de sécurité pour conducteur et passagers de chaque siège</li>
+                                <li>Individual Entertainment à l'arrière</li>
+                            </ul>
                         </article>
                     </div>
                 </div>
-            </section>
-            <section class="sectionNav">
+            </div>
+            <div class="sectionNav">
                 <div class="nav">
                     <nav class="navigation">
-                        <div class="headerLien"><a href="accueilPage.html">Chercher</a></div>
-                        <div class="headerLien"><a href="detailsPage.html">Vendre</a></div>
-                        <div class="headerLien"><a href="contactPage.html">Contact</a></div>
+                        <ul>
+                            <li class="headerLien"><a href="accueilPage.html">Accueil</a></li>
+                            <li class="headerLien"><a href="detailsPage.html">Détails</a></li>
+                            <li class="headerLien"><a href="contactPage.html">Contact</a></li>
+                        </ul>
                     </nav>
                 </div>
-            </section>
-        </section>
+            </div>
+        </div>
         <footer>
             <div class="réseauxSociaux">
                 <div class="containerLogoResauxSociaux">

@@ -1,4 +1,4 @@
-.sectionGalerie{
+.sectionGalerie {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -6,23 +6,23 @@
     margin: 5%;
 }
 
-.w50{
+.w50 {
     display: flex;
     align-items: center;
 
 }
 
-.box{
+.box {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.lignes{
+.lignes {
     display: flex;
     justify-content: center;
 }
 
-.petitPhotos{
+.petitPhotos {
     width: 20%;
 }

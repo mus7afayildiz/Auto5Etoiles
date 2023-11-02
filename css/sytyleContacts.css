@@ -1,59 +1,23 @@
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/**
+* ETML
+* Auteur      : Mustafa Yildiz
+* Date        : 13.10.2023
+* Description : La Page pour style de contactPage
+**/
 
-.sectionContainer{
-    width: 85%;
-}
-
+/*Layout*/
 .sectionMain {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-}
-
-/*navbar*/
-.sectionNav {
-    background-color: rgb(238, 243, 146);
-    width: 15%;
-    border-style: solid;
-    border-color: #f9c308;
-    padding: 2%;
-}
-
-.headerLien{
-    margin: 2%;
-}
-
-a:visited {
-    color: blue;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: blue;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    color: blue;
-    background-color: transparent;
-    text-decoration: underline;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-style: solid;
-    border-color: #f9c308;
     padding: 5%;
-    margin: 2%;
-    width: 80%;
+    width: 70%;
+    margin-bottom: 5%;
 }
 
 .titrePersonnel {
@@ -70,14 +34,21 @@ a:active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40%;
+    width: 80%;
+}
+
+.inputField {
+    width: 80%;
+}
+
+#uname {
+    width: 100%;
 }
 
 .contacts,
 .personnalise {
     display: flex;
     flex-direction: column;
-
 }
 
 .Message,
@@ -98,6 +69,12 @@ a:active {
     display: flex;
     flex-direction: column;
     margin-bottom: 4%;
+}
+
+/*colors*/
+.form {
+    border-style: solid;
+    border-color: #f9c308;
 }
 
 .inputField:invalid {

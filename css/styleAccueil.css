@@ -1,5 +1,14 @@
+/**
+* ETML
+* Auteur      : Mustafa Yildiz
+* Date        : 29.09.2023
+* Description : La Page pour style de accueilPage
+**/
+
+/*Layout*/
+
 /* Main */
-body{
+body {
     display: flex;
     flex-direction: column;
 }
@@ -10,24 +19,142 @@ body{
     flex-direction: row;
 }
 
-.sectionContainer{
+.sectionContainer {
     width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/*navbar*/
-.sectionNav {
-    background-color: rgb(238, 243, 146);
-    width: 15%;
-    border-style: solid;
-    border-color: #f9c308;
-    padding: 2%;
+/*Galerie*/
+.sectionGalerie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
 }
 
-.headerLien{
-    margin: 2%;
+.titleGalerie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w50 {
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.lignes {
+    display: flex;
+    justify-content: center;
+}
+
+.petitPhotos {
+    width: 100%;
+    height: 100%;
+}
+
+
+.logoGrand {
+    width: 80%;
+    border-radius: 5px;
+    width: 100%;
+}
+
+select {
+    margin: 10px;
+    height: 30px;
+    width: auto;
+}
+
+.containerChercher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chercherForm {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonChercher {
+    width: 200px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.containerPetitLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.logoBox {
+    width: 50px;
+}
+
+.photoGrande {
+    width: 100%;
+}
+
+
+/*typology*/
+.title {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logoMain {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.chercherForm {
+    font-size: 1em;
+}
+
+/*colors*/
+.petitPhotos {
+    border: #f9c308 1px solid;
+}
+
+.sectionNav {
+    background-color: rgb(238, 243, 146);
+    border-style: solid;
+    border-color: #f9c308;
 }
 
 a:visited {
@@ -46,106 +173,4 @@ a:active {
     color: blue;
     background-color: transparent;
     text-decoration: underline;
-}
-
-/*Galerie*/
-.sectionGalerie{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 5%;
-}
-
-.titleGalerie{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.w50{
-    display: flex;
-    align-items: center;
-
-}
-
-.box{
-    display: flex;
-    flex-direction: column;   
-}
-
-.lignes{
-    display: flex;
-    justify-content: center;
-}
-
-.petitPhotos{
-    width: 100%;
-    height: 100%;
-}
-
-.title{
-    font-size: 250%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.logoGrand{
-    width: 80%;
-    border-radius: 5px;
-    width: 100%;
-}
-
-select{
-    margin: 10px;
-    height: 30px;
-    width: auto;
-}
-
-.containerChercher{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.chercherForm{
-    display: flex;
-    justify-content: center;
-}
-
-.buttonChercher{
-    width: 200px;
-    height: 30px;
-    margin: 20px;
-    border-radius: 5px;
-}
-
-.containerLogo{
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-}
-
-.containerPetitLogo{
-    display: flex;  
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.logoMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 12px;
-    padding: 10px;
-}
-
-.logoBox{
-    width: 50px;
-}
-
-.photoGrande{
-    width: 100%;
 }
